@@ -40,3 +40,27 @@ const siteContent = { // DO NOT CHANGE THIS OBJECT
 };
 
 console.log('project wired!')
+
+const logoImg = document.querySelector("#logo-img");
+logoImg.src = siteContent.images["logo-img"];
+const ctaImg = document.querySelector("#cta-img");
+ctaImg.src = siteContent.images["cta-img"];
+const middleImg = document.querySelector("#middle-img");
+middleImg.src = siteContent.images["accent-img"];
+
+// const links = document.querySelectorAll(".container nav a");
+// const cta = document.querySelectorAll(".cta");
+// const mainContent = document.querySelectorAll(".main-content");
+// const contact = document.querySelectorAll(".contact");
+// const footer = document.querySelectorAll("footer");
+// const images = document.querySelectorAll("img");
+
+// links.textContent = siteContent[nav][nav-item-1];
+// links.textContent = siteContent[nav][nav-item-2];
+// links.textContent = siteContent[nav][nav-item-3];
+// links.textContent = siteContent[nav][nav-item-4];
+// links.textContent = siteContent[nav][nav-item-5];
+// links.textContent = siteContent[nav][nav-item-6];
+
+// cta.textContent = 
+
