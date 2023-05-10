@@ -78,3 +78,9 @@ bottomContent.children[1].children[0].textContent = siteContent["main-content"][
 bottomContent.children[1].children[1].textContent = siteContent["main-content"]["product-content"];
 bottomContent.children[2].children[0].textContent = siteContent["main-content"]["vision-h4"];
 bottomContent.children[2].children[1].textContent = siteContent["main-content"]["vision-content"];
+
+// CTA
+const h1 = document.querySelector(".cta-text h1");
+h1.textContent = siteContent.cta.h1;
+const ctaButton = document.querySelector(".cta-text button");
+ctaButton.textContent = siteContent.cta.button;
